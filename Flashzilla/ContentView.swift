@@ -18,6 +18,7 @@ struct ContentView: View {
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
     @Environment(\.accessibilityVoiceOverEnabled) var voiceOverEnabled
     @State private var cards = [Card]()
+    @State private var cardsWithRepetition = [Card]()
     
     @State private var showingEditScreen = false
     

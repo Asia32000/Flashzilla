@@ -22,7 +22,7 @@ struct EditCards: View {
                     Button("Add card", action: addCard)
                 }
                 
-                Section {
+                Section("All cards") {
                     ForEach(0..<cards.count, id:\.self) { index in
                         VStack(alignment: .leading) {
                             Text(cards[index].prompt)
@@ -70,6 +70,8 @@ struct EditCards: View {
         let card = Card(prompt: trimmedPrompt, answer: trimmedAnswers)
         cards.insert(card, at: 0)
         saveData()
+        newPrompt = ""
+        newAnswer = ""
     }
     
     func removeCards(at offsets: IndexSet) {
