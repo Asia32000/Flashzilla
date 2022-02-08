@@ -14,6 +14,8 @@
 		9E141FA827AD7EA20025340C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E141FA727AD7EA20025340C /* Card.swift */; };
 		9E141FAA27AD7F740025340C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E141FA927AD7F740025340C /* CardView.swift */; };
 		9E2E858627B2CB7E007ACCDF /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E858527B2CB7E007ACCDF /* EditCards.swift */; };
+		9E2E858827B32109007ACCDF /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E858727B32109007ACCDF /* FileManager-DocumentsDirectory.swift */; };
+		9E2E858A27B32158007ACCDF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E858927B32158007ACCDF /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9E141FA727AD7EA20025340C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9E141FA927AD7F740025340C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9E2E858527B2CB7E007ACCDF /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		9E2E858727B32109007ACCDF /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		9E2E858927B32158007ACCDF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9E141F9927AD446E0025340C /* FlashzillaApp.swift */,
 				9E141FA927AD7F740025340C /* CardView.swift */,
 				9E141F9B27AD446E0025340C /* ContentView.swift */,
+				9E2E858727B32109007ACCDF /* FileManager-DocumentsDirectory.swift */,
+				9E2E858927B32158007ACCDF /* DataManager.swift */,
 				9E141FA727AD7EA20025340C /* Card.swift */,
 				9E2E858527B2CB7E007ACCDF /* EditCards.swift */,
 				9E141F9D27AD446E0025340C /* Assets.xcassets */,
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2E858827B32109007ACCDF /* FileManager-DocumentsDirectory.swift in Sources */,
 				9E141F9C27AD446E0025340C /* ContentView.swift in Sources */,
 				9E141FA827AD7EA20025340C /* Card.swift in Sources */,
+				9E2E858A27B32158007ACCDF /* DataManager.swift in Sources */,
 				9E141FAA27AD7F740025340C /* CardView.swift in Sources */,
 				9E2E858627B2CB7E007ACCDF /* EditCards.swift in Sources */,
 				9E141F9A27AD446E0025340C /* FlashzillaApp.swift in Sources */,
